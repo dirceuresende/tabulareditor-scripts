@@ -40,7 +40,6 @@ foreach (var obj in Model.Tables)
         else if(oldName[i - 1] == '_')
         {
             newName.Append(char.ToUpper(oldName[i]));
-            newName.Append(" ");
         }
         else
         {
